@@ -678,6 +678,10 @@ video {
   display: none;
 }
 
+.h-1\/2 {
+  height: 50%;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -696,6 +700,30 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-1\/3 {
+  height: 33.333333%;
+}
+
+.h-1\/6 {
+  height: 16.666667%;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .w-12 {
@@ -734,6 +762,10 @@ video {
   width: 100%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .max-w-\[52rem\] {
   max-width: 52rem;
 }
@@ -752,6 +784,10 @@ video {
 
 .animate-bounce {
   animation: bounce 1s infinite;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -1068,8 +1104,8 @@ video {
     margin-top: 0px;
   }
 
-  .md\:mt-10 {
-    margin-top: 2.5rem;
+  .md\:mt-12 {
+    margin-top: 3rem;
   }
 
   .md\:mt-36 {
@@ -1168,6 +1204,10 @@ video {
     flex-direction: column;
   }
 
+  .md\:items-end {
+    align-items: flex-end;
+  }
+
   .md\:items-baseline {
     align-items: baseline;
   }
@@ -1188,24 +1228,12 @@ video {
     border-radius: 1rem;
   }
 
-  .md\:bg-img-pantanal {
-    background-image: url('img/pantanal.jpg');
-  }
-
   .md\:bg-auto {
     background-size: auto;
   }
 
-  .md\:bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-
   .md\:pb-\[34rem\] {
     padding-bottom: 34rem;
-  }
-
-  .md\:pb-\[59rem\] {
-    padding-bottom: 59rem;
   }
 
   .md\:pl-5 {
@@ -1360,8 +1388,16 @@ video {
     margin-top: 0px;
   }
 
+  .\32xl\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
   .\32xl\:mt-36 {
     margin-top: 9rem;
+  }
+
+  .\32xl\:mt-\[21rem\] {
+    margin-top: 21rem;
   }
 
   .\32xl\:h-\[22rem\] {
@@ -1376,12 +1412,12 @@ video {
     width: 3rem;
   }
 
-  .\32xl\:w-60 {
-    width: 15rem;
-  }
-
   .\32xl\:w-\[21rem\] {
     width: 21rem;
+  }
+
+  .\32xl\:w-\[23rem\] {
+    width: 23rem;
   }
 
   .\32xl\:w-\[25rem\] {
