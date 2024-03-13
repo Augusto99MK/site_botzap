@@ -798,10 +798,6 @@ video {
   gap: 1.75rem;
 }
 
-.gap-3 {
-  gap: 0.75rem;
-}
-
 .scroll-smooth {
   scroll-behavior: smooth;
 }
@@ -994,16 +990,8 @@ video {
     margin-top: 6rem;
   }
 
-  .sm\:flex {
-    display: flex;
-  }
-
   .sm\:h-2\/5 {
     height: 40%;
-  }
-
-  .sm\:w-1\/2 {
-    width: 50%;
   }
 
   .sm\:w-2\/5 {
@@ -1012,14 +1000,6 @@ video {
 
   .sm\:w-52 {
     width: 13rem;
-  }
-
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
-  .sm\:justify-between {
-    justify-content: space-between;
   }
 
   .sm\:text-2xl {
@@ -1096,10 +1076,6 @@ video {
     margin-top: 9rem;
   }
 
-  .md\:mt-8 {
-    margin-top: 2rem;
-  }
-
   .md\:mt-\[30rem\] {
     margin-top: 30rem;
   }
@@ -1128,8 +1104,8 @@ video {
     height: 15rem;
   }
 
-  .md\:h-\[3\.5rem\] {
-    height: 3.5rem;
+  .md\:h-\[3\.8rem\] {
+    height: 3.8rem;
   }
 
   .md\:h-\[5rem\] {
@@ -1142,10 +1118,6 @@ video {
 
   .md\:h-screen {
     height: 100vh;
-  }
-
-  .md\:h-\[3\.8rem\] {
-    height: 3.8rem;
   }
 
   .md\:max-h-full {
@@ -1180,10 +1152,6 @@ video {
     width: 100%;
   }
 
-  .md\:w-screen {
-    width: 100vw;
-  }
-
   .md\:max-w-\[42rem\] {
     max-width: 42rem;
   }
@@ -1216,40 +1184,12 @@ video {
     justify-content: space-between;
   }
 
-  .md\:gap-3 {
-    gap: 0.75rem;
-  }
-
-  .md\:gap-7 {
-    gap: 1.75rem;
-  }
-
-  .md\:gap-12 {
-    gap: 3rem;
-  }
-
-  .md\:gap-36 {
-    gap: 9rem;
-  }
-
-  .md\:gap-56 {
-    gap: 14rem;
-  }
-
-  .md\:gap-64 {
-    gap: 16rem;
-  }
-
-  .md\:gap-72 {
-    gap: 18rem;
-  }
-
   .md\:rounded-2xl {
     border-radius: 1rem;
   }
 
   .md\:bg-img-pantanal {
-    background-image: url('/img/pantanal.jpg');
+    background-image: url('img/pantanal.jpg');
   }
 
   .md\:bg-auto {
@@ -1286,10 +1226,6 @@ video {
 
   .md\:pt-96 {
     padding-top: 24rem;
-  }
-
-  .md\:pb-\[73rem\] {
-    padding-bottom: 73rem;
   }
 
   .md\:text-2xl {
@@ -1383,14 +1319,6 @@ video {
     padding-bottom: 19rem;
   }
 
-  .lg\:pb-\[21rem\] {
-    padding-bottom: 21rem;
-  }
-
-  .lg\:pb-\[72rem\] {
-    padding-bottom: 72rem;
-  }
-
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1430,10 +1358,6 @@ video {
 
   .\32xl\:mt-0 {
     margin-top: 0px;
-  }
-
-  .\32xl\:mt-1 {
-    margin-top: 0.25rem;
   }
 
   .\32xl\:mt-36 {

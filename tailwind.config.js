@@ -13,7 +13,7 @@ module.exports = {
         "gray-custom": "#1E1C29",
       },
       backgroundImage: {
-        "img-pantanal": "url('/img/pantanal.jpg')",
+        "img-pantanal": "url('img/pantanal.jpg')",
       },
     },
   },
