@@ -24,74 +24,87 @@
 
     <!-- Começo da header -->
     <header
-      class="bg-green-600 md:h-[3.8rem] h-[3rem] w-full sticky top-0 z-10">
-      <nav class="flex justify-between gap-5 lg:mx-28 md:mx-15 items-baseline">
+      class="bg-green-600 md:h-[3.8rem] h-[3rem] w-full fixed top-0 z-10">
+      <nav
+        class="flex justify-between md:items-baseline gap-5 lg:mx-28 md:mx-15">
         <h2
           class="text-blue-bold ml-2 md:ml-0 text-2xl md:text-2xl lg:text-4xl pt-3 md:pl-5 2xl:pl-2">
           Botzap
         </h2>
 
-        <div class="mr-auto -ml-3 md:hidden">
+        <div class="mr-auto -ml-4 mt-[0.85rem] md:hidden">
           <i class="fa fa-whatsapp text-blue-bold"
             style="font-size: 23px; font-weight: bold;"></i>
         </div>
 
-        <div class="mr-auto -ml-4 hidden md:block lg:hidden">
+        <div class="mr-auto -ml-4 mt-[0.85rem] hidden md:block lg:hidden">
           <i class="fa fa-whatsapp text-blue-bold"
             style="font-size: 25px; font-weight: bold;"></i>
         </div>
 
-        <div class="mr-auto -ml-4 hidden md:hidden lg:block">
+        <div class="mr-auto -ml-4 mt-[0.84rem] hidden md:hidden lg:block">
           <i class="fa fa-whatsapp text-blue-bold"
             style="font-size: 35px; font-weight: bold;"></i>
         </div>
 
         <div
-          class="hidden md:flex md:mr-12 md:justify-end md:w-[45rem] gap-7 lg:justify-end lg:w-9/12">
+          class="hidden md:flex md:mr-12 items-baseline md:justify-end md:w-[45rem] gap-7 lg:justify-end lg:w-9/12">
           <a href="#inicio"
-            class="text-blue-bold text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold hover:text-white focus:text-white transition duration-200 rounded-md px-2 nav_link"
+            class="text-blue-bold mt-5 text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold hover:text-white focus:text-white transition duration-200 rounded-md px-2 nav_link scroll-smooth"
             aria-label="Menu" aria-expanded="false">INICIO</a>
 
           <a href="#sobre-o-site"
-            class="text-blue-bold text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold hover:text-white focus:text-white transition duration-200 ease-in-out rounded-md px-2 nav_link">SOBRE
+            class="text-blue-bold text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold hover:text-white focus:text-white transition duration-200 ease-in-out rounded-md px-2 nav_link scroll-smooth">SOBRE
             O
             SITE</a>
           <a href="#principais"
-            class="text-blue-bold  text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold hover:text-white focus:text-white transition duration-200 ease-in-out rounded-md px-2 nav_link">PRINCIPAIS
+            class="text-blue-bold  text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold hover:text-white focus:text-white transition duration-200 ease-in-out rounded-md px-2 nav_link scroll-smooth">PRINCIPAIS
             DESTAQUES</a>
           <a href="https://wa.me/+5567991138636" target="_blank"
             class="text-blue-bold text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold  hover:text-white focus:text-white transition duration-200 ease-in-out rounded-md px-2">FALE
             CONOSCO</a>
         </div>
 
-        <div class="-mr-2 flex md:hidden">
-          <button id="menuButton" type="button";"
-            class="md:hidden mr-5 rounded-md hover:bg-blue-bold text-blue-bold hover:text-white focus:bg-blue-bold  focus:text-white transition duration-200">
-            <i class="fa fa-bars mx-2"
-              style="font-size: 25px"></i>
+        <div class=" md:hidden mt-3 mr-3">
+          <button id="botao" type="button" aria-expanded="false"
+            class="md:hidden rounded-md hover:bg-green-700 focus:bg-green-700 transition duration-200">
+            <svg width="30px" height="30px"
+              viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 18L20 18" stroke="#2D0D38" stroke-width="2"
+                stroke-linecap="round" />
+              <path d="M4 12L20 12" stroke="#2D0D38" stroke-width="2"
+                stroke-linecap="round" />
+              <path d="M4 6L20 6" stroke="#2D0D38" stroke-width="2"
+                stroke-linecap="round" />
+            </svg>
           </button>
         </div>
+      </nav>
 
-        <div id="menu" class=" md:hidden">
-          <div class="flex flex-col gap-[0.03rem] pt-12">
+      <div id="menu"
+        class="hidden md:hidden">
+        <div class="w-full flex justify-end items-end">
+
+          <div class="flex flex-col w-2/4">
 
             <a href="#inicio"
-              class="text-white text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold  hover:text-white focus:text-white transition duration-200 ease-in-out rounded-md px-2 block bg-blue-950">INICIO</a>
+              class="text-white text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold  hover:text-white focus:text-white transition duration-200 ease-in-out rounded-sm px-2 block bg-blue-950 nav_link">INICIO</a>
 
             <a href="#sobre-o-site"
-              class="text-white text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold  hover:text-white focus:text-white transition duration-200 ease-in-out rounded-md px-2 block bg-blue-950">SOBRE
+              class="text-white text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold  hover:text-white focus:text-white transition duration-200 ease-in-out rounded-sm px-2 block bg-blue-950 nav_link">SOBRE
               O
               SITE</a>
             <a href="#principais"
-              class="text-white text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold  hover:text-white focus:text-white transition duration-200 ease-in-out rounded-md px-2 block bg-blue-950">DESTAQUES</a>
+              class="text-white text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold  hover:text-white focus:text-white transition duration-200 ease-in-out rounded-sm px-2 block bg-blue-950 nav_link">DESTAQUES</a>
             <a href="https://wa.me/+5567991138636" target="_blank"
-              class="text-white text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold  hover:text-white focus:text-white transition duration-200 ease-in-out rounded-md px-2 block bg-blue-950">FALE
+              class="text-white text-xl lg:text-xl md:text-xl 2xl:text-2xl hover:bg-blue-bold focus:outline-none focus:bg-blue-bold  hover:text-white focus:text-white transition duration-200 ease-in-out rounded-sm px-2 block bg-blue-950 nav_link">FALE
               CONOSCO</a>
 
           </div>
         </div>
 
-      </nav>
+      </div>
     </header>
 
     <!-- Fim do header -->
