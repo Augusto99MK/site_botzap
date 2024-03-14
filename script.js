@@ -9,7 +9,22 @@ document.addEventListener("DOMContentLoaded", function () {
       let targetElement = document.querySelector(targetId);
 
       if (targetElement) {
-        targetElement.scrollIntoView({
+        // Altura da barra de navegação
+        const navHeight = document.querySelector("header").offsetHeight;
+
+        // Posição do início da seção considerando a altura da barra de navegação
+        let targetPosition =
+          targetElement.getBoundingClientRect().top +
+          window.scrollY -
+          navHeight;
+
+        // Ajuste adicional para a seção de início para garantir que não haja espaço extra na rolagem suave
+        if (targetId === "#inicio") {
+          targetPosition -= 40; // ajuste de 40 pixels para garantir que o início seja corretamente exibido
+        }
+
+        window.scrollTo({
+          top: targetPosition,
           behavior: "smooth",
         });
       }

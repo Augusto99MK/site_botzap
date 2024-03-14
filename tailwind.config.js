@@ -12,9 +12,6 @@ module.exports = {
         "blue-bold": "#2D0D38",
         "gray-custom": "#1E1C29",
       },
-      backgroundImage: {
-        "img-pantanal": "url('img/pantanal.jpg')",
-      },
     },
   },
   plugins: [],
