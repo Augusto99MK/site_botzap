@@ -48,6 +48,10 @@ npm i
 * [Tailwind CSS](https://tailwindcss.com/) - O framework web usado
 * [NodeJS](https://nodejs.org/en) - Gerente de Dependência
 
+## 🔥 Versão Deploy
+
+https://augusto99mk.github.io/site_botzap/
+
 ## ✒️ Autores
 
 * **Carlos Augusto Moreira da Silva** - *Dev Estudante de Front - End* - [Augusto99MK](https://github.com/Augusto99MK)
