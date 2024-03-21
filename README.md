@@ -30,14 +30,14 @@ npm i
 
 ## ☕Preview
 
-<h2 align="center"> * MOBILE: </h2>
+<h2 align="center"> MOBILE: </h2>
 
 <p align="center">
   <img src="https://github.com/Augusto99MK/site_botzap/assets/121398051/4072bae0-369e-43df-8e60-d0e524c3128c" />
 </p>
 
 
-<h2 align="center"> * DESKTOP: </h2>
+<h2 align="center"> DESKTOP: </h2>
 
 <p align="center">
   <img src="https://github.com/Augusto99MK/site_botzap/assets/121398051/0dff43b6-8954-4110-952e-5c1660cc4cc8" />
