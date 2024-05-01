@@ -54,6 +54,6 @@ https://augusto99mk.github.io/site_botzap/
 
 ## ✒️ Autores
 
-* **Carlos Augusto Moreira da Silva** - *Dev Estudante de Front - End* - [Augusto99MK](https://github.com/Augusto99MK)
+* **Carlos Augusto Moreira da Silva** - *Dev Estudante de Aplicações Front-end* - [Augusto99MK](https://github.com/Augusto99MK)
 ---
 ⌨️ com ❤️ por [Augusto99MK](https://github.com/Augusto99MK) 😊
