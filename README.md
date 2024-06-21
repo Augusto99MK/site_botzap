@@ -1,6 +1,6 @@
-# Site do projeto Botzap Cb
+# Site do projeto TurCB
 
-Site promocional da aplicação Botzap Cb feito como critério avaliativo para a banca de tcc do Instituto Federal de Mato Grosso do Sul - Campus CB
+Site promocional da aplicação TurCB chatbot Whatsapp feito como projeto avaliativo de nota parcial para o Instituto Federal de Mato Grosso do Sul - Campus CB
 
 ## 🚀 Começando
 
