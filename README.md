@@ -37,15 +37,23 @@ npm i
 ## ☕Preview
 
 <br> <br>
-<img src="https://github.com/Augusto99MK/site_botzap/assets/121398051/0dff43b6-8954-4110-952e-5c1660cc4cc8" width="930" align="left" style="margin-right: 200px;" />
 
-<img src="https://github.com/Augusto99MK/site_botzap/assets/121398051/4072bae0-369e-43df-8e60-d0e524c3128c" width="230" align="center" />
+<h3 align="center">Desktop e Dispositivo Móvel</h2>
+
+<br><br>
+
+<div align="center">
+<img src="https://github.com/augustok99/site_botzap/assets/121398051/87c804ff-ef61-4cde-b357-c99a4e647c38" width="570" align="center" style="margin-right: 70px;" />
+
+<img src="https://github.com/augustok99/site_botzap/assets/121398051/e8f14e71-8df8-4ecc-b64d-4e000c316351" width="200" align="center" />
+</div>
+
 <br> <br><br> <br>
 
 ## 🛠️ Construído com
 
-- [Tailwind CSS](https://tailwindcss.com/) - O framework web usado
-- [NodeJS](https://nodejs.org/en) - Gerente de Dependência
+- [Tailwind CSS](https://tailwindcss.com/) - O framework css usado.
+- [NodeJS](https://nodejs.org/en) - Gerente de Dependência.
 
 ## 🔥 Versão Deploy
 
@@ -72,3 +80,21 @@ https://augusto99mk.github.io/site_turcb/
   <a href="https://www.instagram.com/dev.carlos_aug/" title="Instagram">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=LINK-DO-SEU-INSTAGRAM" alt="Instagram"/></a>
 </p>
+
+## License
+
+Direitos autorais 2024 Carlos Augusto
+
+Licenciado sob a Licença Apache, Versão 2.0 (a "Licença");
+você não pode usar este projeto, exceto em conformidade com a Licença.
+Você pode obter uma cópia da Licença em http://www.apache.org/licenses/LICENSE-2.0.
+
+A menos que exigido pela lei aplicável ou acordado por escrito, software
+distribuído sob a Licença é distribuído em uma BASE "AS IS", ou seja,
+SEM GARANTIAS OU CONDIÇÕES DE QUALQUER TIPO, expressas ou implícitas.
+Consulte a Licença para o idioma específico que rege as permissões e
+limitações sob a licença.
+
+---
+
+Este projeto não é afiliado, associado, autorizado, endossado ou de qualquer forma oficialmente conectado ao WhatsApp ou a qualquer uma de suas subsidiárias ou afiliadas. O site oficial do WhatsApp pode ser encontrado em whatsapp.com. "WhatsApp", bem como nomes, marcas, emblemas e imagens relacionados são marcas registradas de seus respectivos proprietários. Também não é garantido que você não será bloqueado usando este método. O WhatsApp não permite bots ou clientes não oficiais em sua plataforma, portanto, isso não deve ser considerado totalmente seguro.
