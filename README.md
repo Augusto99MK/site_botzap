@@ -34,18 +34,21 @@ Ao baixar o projeto, digite o seguinte comando para baixar todas as dependência
 npm i
 ```
 
+
+
 ## ☕Preview
 
 <br> <br>
-<img src="https://github.com/Augusto99MK/site_botzap/assets/121398051/0dff43b6-8954-4110-952e-5c1660cc4cc8" width="930" align="left" style="margin-right: 200px;" />
 
-<img src="https://github.com/Augusto99MK/site_botzap/assets/121398051/4072bae0-369e-43df-8e60-d0e524c3128c" width="230" align="center" />
+<img src="https://github.com/augustok99/site_botzap/assets/121398051/87c804ff-ef61-4cde-b357-c99a4e647c38" width="700" align="left" style="margin-right: 200px;" />
+
+<img src="https://github.com/augustok99/site_botzap/assets/121398051/e8f14e71-8df8-4ecc-b64d-4e000c316351" width="200" align="center"/>
 <br> <br><br> <br>
 
 ## 🛠️ Construído com
 
-- [Tailwind CSS](https://tailwindcss.com/) - O framework web usado
-- [NodeJS](https://nodejs.org/en) - Gerente de Dependência
+- [Tailwind CSS](https://tailwindcss.com/) - O framework css usado.
+- [NodeJS](https://nodejs.org/en) - Gerente de Dependência.
 
 ## 🔥 Versão Deploy
 
