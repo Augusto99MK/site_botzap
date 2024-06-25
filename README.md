@@ -57,7 +57,7 @@ npm i
 
 ## 🔥 Versão Deploy
 
-https://augusto99mk.github.io/site_turcb/
+[https://augusto99mk.github.io/site_turcb/](https://augustok99.github.io/site_turcb/)
 
 ## ✒️ Autores
 
